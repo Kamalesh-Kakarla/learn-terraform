@@ -1,0 +1,17 @@
+TERRAFORM:
+     Terraform is an infrastructure as code tool that lets you build, change, and version cloud and on-prem resources safely and efficiently.
+
+TERRAFORM ON AWS:
+Terraform is an open-source IaC software tool that provides a consistent command line interface (CLI) workflow to manage hundreds of cloud services. Terraform codifies cloud APIs into declarative configuration files.
+
+TERRAFORM COMMANDS
+  We have 4 mainly used commands in terraform they are INIT, PLAN, APPLY, DESTROY
+
+Init - The terraform init will understand the code we have written and download necessary provider plugins +2 more things it will do.
+
+Plan - The terraform plan will tell the execution plan that what it is planning to do when you actually apply.
+
+Apply - The terraform apply create the resources which are mentioned in the code. If the resource is already there then TF will not do anything.
+
+Destroy - The terraform destroy delete the resources which were been created so far by TF. However TF will not look for code to delete, it will delete created resources by TF.
+ 
